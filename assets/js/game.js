@@ -55,7 +55,7 @@ const myModule = (() => {
 
     // This function allows me to take a card, draw a card randomly from the deck,
     // it assigns the card and removes it from the deck. 
-    // pop method removes the last element of the arrangement and returns it 
+    // pop method removes the last element of the array and returns it 
     const orderCard = () => {
 
         //if there are no cards, it is not executed 
@@ -99,7 +99,7 @@ const myModule = (() => {
             } else if (computerPoints > 21) {
                 alert('Player wins');
             } else {
-                alert('Computer wins')
+                alert('Computer wins');
             }
         }, 10);
     }
